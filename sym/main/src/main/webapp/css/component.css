@@ -1,0 +1,62 @@
+.main-section {
+    border-top: 1px #999 dotted;
+}
+
+.language-panel {
+    float: right;
+}
+
+div.component-main-bar {
+    width: 79%;
+}
+
+.component-side-bar {
+    width: 20%;
+    float: right;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-source {
+    border: white thin solid;
+    padding-bottom: 5px;
+}
+
+.img-source img {
+    max-height: 100px;
+}
+
+#scrollview-container {
+    overflow: scroll;
+}
+
+.instructions-section {
+    display: table;
+    width: 100%;
+}
+
+.instructions-container {
+    display: table-row;
+}
+
+.step {
+    display: table-cell;
+    width: 33%;
+    padding: 10px;
+}
+
+#createOrder {
+    padding-bottom: 15px;
+}
+
+.stage-title {
+
+}
+
+.centered-table {
+
+}
+
+.row-cursor {
+
+}

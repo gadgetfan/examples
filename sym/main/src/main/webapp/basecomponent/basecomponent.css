@@ -1,0 +1,27 @@
+#sy-view-canvas div {
+    font-size: 0.7em;
+    position: absolute;
+}
+
+#sy-view-canvas .browser-incompatible div {
+    color: red;
+    font-size: 1em;
+    position: static;
+}
+
+.sy-enable {
+    display: none;
+}
+
+.sy-disable {
+    display: table;
+}
+
+.disabler {
+    position: absolute;
+    background: url(images/loading.gif) no-repeat center white;
+}
+
+#sy-site-iframe {
+    width: 100%;
+}

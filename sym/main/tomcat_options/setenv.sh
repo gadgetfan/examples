@@ -1,0 +1,1 @@
+export JAVA_OPTS=-Dfile.encoding=UTF-8 -Djava.library.path=c:\dev\native

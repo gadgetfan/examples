@@ -1,0 +1,9 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" t:type="layout"
+      title="${message:contacts.title}">
+
+<p>Будем рады услышать Ваше мнение о сайте "Выбери твое" по email
+    <t:infoemaillink caption=""/>
+    .
+</p>
+
+</html>

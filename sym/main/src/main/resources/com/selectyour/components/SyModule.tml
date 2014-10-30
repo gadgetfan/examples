@@ -1,0 +1,42 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns="http://www.w3.org/1999/xhtml"
+        >
+
+<script type="text/javascript" language="javascript"
+        src="${asset:context:/SelectYourModuleNew/SelectYourModuleNew.nocache.js}"></script>
+
+<!-- TODO: use SelectYourModuleNew.ROOT_PANEL_ID and other constants from SelectYourModuleNew-->
+<div>
+    <iframe src="javascript:''" id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+    <div id="sy-main" syclientphoto="${clientPhoto}" sywframedata="${windowFrameData}" isDemo="${isDemo}">
+    </div>
+</div>
+
+<div style="margin-top: 5px;">
+    <div id="sy-additional" style="display:none">
+        <t:form t:id="buyPicture" clientValidation="none">
+            <t:errors/>
+
+            <table cellpadding="2">
+                <tr>
+                    <td>
+                        <t:label for="customerName">Ваше имя:</t:label>
+                    </td>
+                    <td><input t:type="TextField" t:id="customerName" size="30"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <t:label for="customerPhone">Ваш телефон:</t:label>
+                    </td>
+                    <td><input t:type="TextField" t:id="customerPhone" t:validate="required" size="30"/></td>
+                </tr>
+            </table>
+
+            <br/>
+            <!--<t:hidden id="sy-result-image-input" syimagewidth="800" value="resultImageData"/>-->
+            <t:hidden id="sy-id-input" value="pictureId"/>
+            <input id="sy-enable-after-product-draw" type="submit" value="Заказать"/>
+        </t:form>
+    </div>
+</div>
+
+</html>

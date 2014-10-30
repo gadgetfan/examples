@@ -1,0 +1,8 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" t:type="layout"
+      title="${message:doors/index.title}">
+
+<p>Как выбрать картину</p>
+
+<!--iframe width="640" height="480" src="http://www.youtube.com/embed/gtSuQYMp5xQ" frameborder="0" allowfullscreen=""></iframe-->
+
+</html>

@@ -1,0 +1,36 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns:p="tapestry:parameter"
+      t:type="layout"
+      title="${message:doors/photomanagement.title}">
+<div class="right-column30">
+    <t:form t:id="changePhoto">
+        <t:if test="clientPhotoUploaded">
+            <input t:type="submit" value="Сменить фото"/>
+            <p:else>
+                <input t:type="submit" value="Загрузить фото"/>
+            </p:else>
+        </t:if>
+    </t:form>
+
+    <t:if test="clientPhotoUploaded">
+
+        <t:form t:id="deletePhoto">
+            <input t:type="submit" value="Удалить фото комнаты" t:mixins="confirm"
+                   t:message="Удалить Вашу фотографию ?"/>
+        </t:form>
+    </t:if>
+
+</div>
+
+<div class="main-column70">
+    <t:if test="clientPhotoUploaded">
+        <t:sycanvascomponent clientPhoto="${clientPhoto}" windowHeightPercent="75" enabled="false">
+        </t:sycanvascomponent>
+        <p:else>
+            <p>
+                Вы не загрузили фото Вашей комнаты.
+            </p>
+        </p:else>
+    </t:if>
+</div>
+
+</html>

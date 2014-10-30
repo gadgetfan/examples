@@ -1,0 +1,1 @@
+call run_table.bat %1 %2 pictures

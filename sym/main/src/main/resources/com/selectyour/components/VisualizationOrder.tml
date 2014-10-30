@@ -1,0 +1,33 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" xmlns="http://www.w3.org/1999/xhtml"
+        >
+
+<div class="visualizationOrder">
+    <p>
+        Закажите услугу «Картины в интерьере».
+        <br/>Акция "Мы открылись". До 30 сентября стоимость услуги всего <s>100000</s>
+        &nbsp;<b>50&nbsp;000</b>&nbsp;белорусских рублей.
+    </p>
+    <t:form t:id="visualizationOrder" clientValidation="none">
+        <t:errors/>
+
+        <table cellpadding="2" class="form-table">
+            <tr>
+                <td>
+                    <t:label for="customerName">Ваше имя:</t:label>
+                </td>
+                <td><input t:type="TextField" t:id="customerName" size="20"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <t:label for="customerPhone">Ваш телефон:</t:label>
+                </td>
+                <td><input t:type="TextField" t:id="customerPhone" t:validate="required" size="20"/></td>
+            </tr>
+        </table>
+
+        <br/>
+        <input type="submit" value="Заказать"/>
+    </t:form>
+</div>
+
+</html>

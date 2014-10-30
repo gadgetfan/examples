@@ -1,0 +1,6 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" t:type="layout"
+      title="${message:doors/thanks.title}" hasMenu="false">
+<p>
+    Ваш заказ принят. Мы перезвоним Вам в ближайшее время.
+</p>
+</html>

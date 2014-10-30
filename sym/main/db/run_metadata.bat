@@ -1,0 +1,1 @@
+call run_script.bat %1 first first %2 metadata.sql

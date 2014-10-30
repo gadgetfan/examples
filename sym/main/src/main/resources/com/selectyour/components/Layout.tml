@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns="http://www.w3.org/1999/xhtml"
+        >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>${title}</title>
+
+    <!-- My functions -->
+    <script>
+        function findPos(obj) {
+            var curtop = 0;
+            if (obj.offsetParent) {
+                do {
+                    curtop += obj.offsetTop;
+                } while (obj = obj.offsetParent);
+                return [curtop];
+            }
+        }
+        function scrollToId(id) {
+            window.scroll(0, findPos(document.getElementById(id)));
+            return false;
+        }
+    </script>
+
+    <!-- Google analytic-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-52714026-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body class="${bodyClass}">
+
+<div class="wrapper">
+    <t:if test="hasMenu">
+        <div class="header">
+            <div class="logo">
+                <h1>
+                    <t:pagelink page="doors/index">${message:select_your}</t:pagelink>
+                    <!--<div style="font-size: 12px;">beta</div>-->
+                    <div style="display:none">version ${appVersion}</div>
+                </h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li t:type="loop" source="pageInfos" value="pageInfo" class="prop:cssClassForPageName">
+                        <t:pagelink page="${pageInfo.pageName}">${pageInfo.menuTitle}</t:pagelink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </t:if>
+    <div class="${pageClass}">
+        <div class="content">
+            <div class="post">
+                <t:if test="showTitle">
+                    <div class="title">
+                        <!--<div class="company-info">Картины в интерьере. <br/><img src="${asset:context:/layout/images/mts.gif}"/> 8-029-764-97-24</div>-->
+                        <h2>${title}</h2>
+                    </div>
+                </t:if>
+                <div class="entry">
+                    <t:body/>
+                </div>
+            </div>
+        </div>
+        <br style="clear: both;"/>
+    </div>
+
+    <div class="push"></div>
+</div>
+
+<div class="footer">
+    &copy;2014 ${message:select_your}. All Rights Reserved.
+</div>
+
+<!--http://p3chat.com/-->
+<script>
+    var p3chat = p3chat || [];
+    p3chat.push(['_setAccount', '087807316']);
+    p3chat.push(['_trackPage']);
+    (function (d, t, id) {
+        if (d.getElementById(id)) return;
+        var e = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+        e.src = "//p3chat.com/dist/p3.js";
+        e.id = id;
+        s.parentNode.insertBefore(e, s);
+    }(document, 'script', 'p3chat-snippet'));
+</script>
+</body>
+</html>

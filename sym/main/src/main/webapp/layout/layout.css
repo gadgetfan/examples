@@ -1,0 +1,424 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+.footer, .push {
+    height: 4em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #626262;
+}
+
+.with_header {
+    background: #FFFFFF url(images/colontitle_up.png) repeat-x;
+}
+
+.no_header {
+    background: #FFFFFF url(images/colontitle_up_no_header.png) repeat-x;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+input, button {
+    padding: 5px;
+    background: #FEFEFE url(images/img13.gif) repeat-x;
+    border: 1px solid #626262;
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+    margin: 0;
+    text-decoration: none;
+    font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    color: #444444;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 2.2em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    letter-spacing: -1px;
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p, ol, ul {
+    margin-bottom: 1em;
+    line-height: 200%;
+}
+
+ul ul, ol ul {
+    margin-bottom: 0em;
+}
+
+blockquote {
+    margin: 0 0 0 1.5em;
+    padding-left: 1em;
+    border-left: 5px solid #DDDDDD;
+}
+
+a {
+    color: #1692B8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Header */
+
+div.header {
+    height: 57px;
+}
+
+div.logo h1, div.logo p {
+    float: left;
+    color: #f5f5f5;
+}
+
+div.logo h1 {
+    padding: 0px 0 0 40px;
+}
+
+div.logo p {
+    margin: 0;
+    padding: 14px 0 0 4px;
+    line-height: normal;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+div.logo a {
+    text-decoration: none;
+    color: #D0C7A6;
+}
+
+div.menu {
+    float: left;
+}
+
+div.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.menu li {
+    display: block;
+    float: left;
+    height: 42px;
+}
+
+div.menu a {
+    display: block;
+    padding: 8px 20px 0px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #CEC5A4;
+}
+
+div.menu .last {
+    margin-right: 20px;
+}
+
+div.menu a:hover {
+    color: #FFFFFF;
+}
+
+div.menu .current_page_item A {
+    text-decoration: underline;
+}
+
+div.menu .current_page_item a {
+}
+
+/* Page */
+
+div.page {
+    padding: 0px 40px 0 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+div.wide-page {
+    padding: 0px 40px 0 40px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Content */
+
+.post {
+    margin-bottom: 10px;
+}
+
+.post .title {
+    border-bottom: 1px #999999 dashed;
+    font-family: Tahoma, Georgia, "Times New Roman", Times, serif;
+}
+
+.post .title h2 {
+    padding: 30px 30px 20px 0px;
+    /*text-transform: lowercase;*/
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.post .title p {
+    margin: 0;
+    padding: 0 0 10px 0px;
+    line-height: normal;
+    color: #BABABA;
+}
+
+.post .title p a {
+    color: #BABABA;
+}
+
+.post .entry {
+    padding: 0px 0px 20px 0px;
+}
+
+.post .links {
+    margin: 0;
+    padding: 0 30px 30px 0px;
+}
+
+.post .links a {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.post .links a:hover {
+}
+
+.post .links .more {
+    width: 128px;
+    height: 30px;
+    background: url(images/img03.jpg) no-repeat left center;
+}
+
+.post .links .comments {
+    width: 152px;
+    height: 30px;
+    background: url(images/img04.jpg) no-repeat left center;
+}
+
+/* Footer */
+
+div.footer {
+    background: url(images/colontitle_down.png) repeat-x;
+    padding-top: 1em;
+    text-align: center;
+    line-height: normal;
+    font-size: .9em;
+}
+
+div.footer a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+div.footer a:hover {
+    color: #FFFFFF;
+}
+
+div.footer .rss {
+    background: url(images/img18.gif) no-repeat left center;
+}
+
+div.footer .xhtml {
+    background: url(images/img19.gif) no-repeat left center;
+}
+
+div.footer .css {
+    background: url(images/img20.gif) no-repeat left center;
+}
+
+div.footer .legal a {
+    padding: 0;
+}
+
+.code {
+    display: block;
+    font-weight: bold;
+    padding-top: 1em;
+    width: 100%;
+}
+
+.right-column40 {
+    width: 39%;
+    float: right;
+}
+
+.right-column50 {
+    width: 49%;
+    float: right;
+}
+
+.right-column70 {
+    width: 69%;
+    float: right;
+}
+
+.main-column40 {
+    width: 40%;
+}
+
+.main-column60 {
+    width: 60%;
+}
+
+.main-column80 {
+    width: 80%;
+}
+
+.right-column20 {
+    width: 19%;
+    float: right;
+}
+
+.main-column70 {
+    width: 70%;
+}
+
+.main-column50 {
+    width: 50%;
+}
+
+.main-column30 {
+    width: 30%;
+}
+
+.right-column30 {
+    width: 29%;
+    float: right;
+}
+
+.selection {
+    font-size: 1em;
+    color: blue;
+}
+
+.notice {
+    color: #958FAC;
+    font-size: 0.75em;
+    line-height: 1.5em;
+}
+
+.notice p {
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+.two-choises-table {
+    text-align: center;
+}
+
+table.two-choises-table td {
+    width: 50%;
+}
+
+table.two-choises-table tbody td {
+    border: solid 2px silver;
+}
+
+table.two-choises-table tbody td:hover {
+    border: solid 2px blue;
+}
+
+table.two-choises-table tbody td a {
+    display: block;
+}
+
+table.simple-table {
+    border-collapse: collapse;
+}
+
+table.simple-table td, table.simple-table th {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.font-selection {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.right-column {
+    float: right;
+    margin: 20px 0 20px 20px;
+}
+
+.left-column {
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+.visualizationOrder {
+    float: left;
+    padding: 20px;
+    border: medium dotted #000000;
+    width: 40%;
+    margin: 20px 40px 20px 0;
+}
+
+p br {
+    display: block;
+    margin-bottom: 1em;
+    content: " ";
+}
+
+.form-table tr td:first-child {
+    text-align: right;
+}
+
+.company-info {
+    float: right;
+    width: 20%;
+    margin-left: 30px;
+}

@@ -1,0 +1,6 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+        >
+
+<a href="${asset:context:/files/sy_demo.zip}"
+   onClick="javascript: _gaq.push(['_trackPageview', '/files/sy_demo.zip']);">${caption}</a>
+</html>

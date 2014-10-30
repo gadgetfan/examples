@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+        >
+
+<script type="text/javascript" language="javascript"
+        src="${asset:context:/DataLoaderModule/DataLoaderModule.nocache.js}"></script>
+
+<div>
+    <iframe id="sy-site-iframe" frameborder="0" seamless=""
+            sysrc="http://www.volhovec.ru/catalog/classic/new_classic/"></iframe>
+    <div class="disabler sy-enable"></div>
+</div>
+<div>
+    <textarea id="sylog" rows="10" cols="100"></textarea>
+</div>
+
+<!--
+TODO: move to document.ready event handler
+TODO: move in component parameters height factor
+Set the height of component
+-->
+<script type="text/javascript">
+    var componentHeightStyle = "height: " + window.innerHeight *
+    ${windowHeightPercent} /
+    100 + "px;";
+    document.getElementById("sy-site-iframe").setAttribute("style", componentHeightStyle);
+</script>
+
+<!--
+Scroll to page top (needed for FF)
+hide address bar for mobile devices
+-->
+<!--script type="text/javascript">
+    window.addEventListener("load", function () {
+        setTimeout(function () {
+            window.scrollTo(0, 0); //for mobile should be (0, 1)
+        }, 0);
+    });
+</script-->
+
+
+</html>

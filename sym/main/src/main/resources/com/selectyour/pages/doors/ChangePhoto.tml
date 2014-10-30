@@ -1,0 +1,25 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" t:type="layout"
+      title="${message:doors/changephoto.title}">
+
+<t:form t:id="uploadPhoto">
+    <t:errors/>
+    <ol>
+        <li>
+            Вначале выберите фото для загрузки нажав <input t:type="upload" t:id="file" t:value="file"
+                                                            validate="required"/>.
+            <br/>Идеальное фото - это фото комнаты с маркером (скачать <a href="${asset:context:/files/marker.pdf}">здесь</a>)
+            и окружающим интерьером. Например:
+            <br/>
+            <img src="${asset:context:/images/test.jpg}"/>
+        </li>
+        <li>
+            Затем нажмите <input type="submit" value="Отправить выбранное фото"/>, чтобы отправить фото на сайт.
+            <br/>Фото будет доступно только Вам. Вы сможете в любой момент удалить свое фото на странице
+            <t:pagelink
+                    page="doors/photomanagement">Управление Вашим фото
+            </t:pagelink>
+            .
+        </li>
+    </ol>
+</t:form>
+</html>

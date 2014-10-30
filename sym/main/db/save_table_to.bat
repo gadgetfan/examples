@@ -1,0 +1,1 @@
+mysqldump first %2 --where=%4 --user=first --password=%1 -P 3307 --no-create-info --skip-extended-insert > %3.sql

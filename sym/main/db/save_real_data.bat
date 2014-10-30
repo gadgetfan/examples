@@ -1,0 +1,1 @@
+call save_table %1 pictures "1=1"

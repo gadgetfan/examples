@@ -1,0 +1,21 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" t:type="layout"
+      title="${message:doors/uploadphotoappeal.title}">
+<p>
+    Сайт "Выбери твое" предназначен для подбора картины именно для <b>Вашей</b> комнаты. Пожалуйста,
+    <t:pagelink page="doors/changephoto">загрузите</t:pagelink>
+    фото своей комнаты. Фото будет доступно для просмотра/подбора картины только с Вашего компьютера. Вы
+    сможете в любой момент удалить свое фото.
+</p>
+
+<table class="two-choises-table">
+    <tr>
+        <td>
+            <t:pagelink page="doors/changephoto">Загрузить фото и подобрать картину для Вашей комнаты.
+            </t:pagelink>
+        </td>
+        <td>
+            <t:pagelink page="doors/select">Посмотреть демонстрационную версию сайта</t:pagelink>
+        </td>
+    </tr>
+</table>
+</html>

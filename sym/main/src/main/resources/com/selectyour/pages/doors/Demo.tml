@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns="http://www.w3.org/1999/xhtml"
+        >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+<t:symodule clientPhoto="${clientPhoto}" windowFrameData="${windowFrameData}" isDemo="true">
+</t:symodule>
+</body>
+</html>
