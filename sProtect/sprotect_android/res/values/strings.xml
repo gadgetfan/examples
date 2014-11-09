@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="debug">true</bool> <!--true - shows first buttons to check sign-->
+    <bool name="showNivea">false</bool> <!--true - immediately shows Nivea product original page-->
+
+    <string name="app_name">sprotect_android</string>
+    <string name="checkSignUrl">http://www.selectartforyourself.com/spmain/checkSign</string>
+    <string name="saveSignUrl">http://www.selectartforyourself.com/spmain/saveSign</string>
+    <!--<string name="checkSignUrl">http://192.168.1.103:8080/spmain/checkSign</string>
+    <string name="saveSignUrl">http://192.168.1.103:8080/spmain/saveSign</string>-->
+
+    <!-- processpring-jpas sign -->
+    <string name="saveSign">Save</string>
+    <string name="checkSign">Check</string>
+</resources>

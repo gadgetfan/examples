@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/../shared" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/io/file/FileService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/io/file/FileServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/baseentity/BaseEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/baseentity/BaseRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/baseentity/BaseService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/baseentity/BaseServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/namedentity/NamedEntity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/namedentity/NamedEntitySpecifications.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/namedentity/NamedRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/namedentity/NamedService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/namedentity/NamedServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/Probe.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/ProbeRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/ProbeService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/ProbeServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/sparkle/Sparkle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/sparkle/SparkleRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/sparkle/SparkleService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/sparkle/SparkleServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/viewpoint/ViewPoint.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/viewpoint/ViewPointRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/viewpoint/ViewPointService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/probe/viewpoint/ViewPointServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/sign/Sign.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/sign/SignRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/sign/SignService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shared/src/main/java/com/sprotect/model/entity/sign/SignServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../web-main" charset="UTF-8" />
+  </component>
+</project>
+

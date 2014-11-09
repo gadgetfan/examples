@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: org.google.javacv:javacv:2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../shared/lib/javacv/javacv.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

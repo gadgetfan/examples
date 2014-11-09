@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="httpclient">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/httpcomponents/httpclient-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpcomponents/httpcore-4.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/httpcomponents/httpmime-4.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

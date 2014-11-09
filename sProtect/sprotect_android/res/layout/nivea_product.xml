@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="0px"
+    android:paddingRight="0px"
+    >
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp" android:layout_gravity="center">
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Производитель:"
+                android:id="@+id/checkBox" android:layout_gravity="center_horizontal|bottom" android:checked="true"
+                android:textSize="21dp" android:textStyle="bold"/>
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView1" android:src="@drawable/nivea"/>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="360dp"
+            android:id="@+id/imageView" android:layout_gravity="center" android:src="@drawable/pena"
+            android:paddingTop="20dp" android:paddingBottom="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ПЕНА для бритья увлажняющая"
+            android:id="@+id/textView" android:layout_gravity="center_vertical" android:textSize="22dp"
+            android:textStyle="bold" android:autoText="false" android:singleLine="false" android:gravity="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/button" android:layout_gravity="center"
+            android:clickable="true" android:focusable="true" android:layout_marginTop="15dp"/>
+</LinearLayout>
+
